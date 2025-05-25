@@ -1,7 +1,5 @@
 from django.db import models
-
-from django.db import models
-
+# this models and make to help 
 class ToDo(models.Model):
     title = models.CharField(max_length=255)
     description = models.TextField(blank=True)
